@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov  8 20:01:14 2024
-
-@author: DELL
-"""
 # Import necessary libraries
 from tkinter import *  # Import all classes and functions from tkinter for GUI
 from PIL import Image, ImageTk  # Import Image and ImageTk for image handling
@@ -16,7 +10,7 @@ class Rules:
         self.r.geometry("1500x700")  # Set window size to match the image size
         
         # Load and resize the background image
-        bg = "C:\\Users\\DELL\\project\\PG\\ocean1.png"  # Path to the background image
+        bg = "C:\\insert\\background\\image\\path\\here.png"  # Path to the background image
         original_img = Image.open(bg)  # Open the original image
         resized_img = original_img.resize((1500, 800))  # Resize the image to fit the window
         self.background_img = ImageTk.PhotoImage(resized_img)  # Convert the image for use in Tkinter
