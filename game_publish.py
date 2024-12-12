@@ -29,11 +29,11 @@ class Game:
         self.player_x, self.player_y = 50, self.HEIGHT // 2  # Player's starting position
         self.player_speed = 20  # Speed of movement
         # Load player image
-        self.player_image = self.load_image("C:\\Users\\DELL\\project\\PG\\player.png", (70, 70))
+        self.player_image = self.load_image("C:\\insert\\diver\\file\\path\\here.png", (70, 70))
         self.player = self.canvas.create_image(self.player_x, self.player_y, anchor=tk.CENTER, image=self.player_image)
         
         # Load submarine image (shown at the end of the game)
-        self.submarine_image = self.load_image("C:\\Users\\DELL\\project\\PG\\submarine.png", (300, 200))
+        self.submarine_image = self.load_image("C:\\insert\\submarine\\file\\path\\here.png", (300, 200))
         self.submarine = None  # Placeholder for submarine image
 
         # Initialize bullet and obstacle settings
@@ -44,7 +44,7 @@ class Game:
         self.obstacles = []  # List to track obstacles
         self.obstacle_interval = 1000  # Time interval for spawning obstacles (in ms)
         # Load obstacle images (monsters)
-        self.obstacle_images = [self.load_image(f"C:\\Users\\DELL\\project\\PG\\monster{i}.png") for i in range(1, 13)]
+        self.obstacle_images = [self.load_image(f"C:\\insert\\obstacle\\file\\path\\here{i}.png") for i in range(1, 13)]
 
         # Display score on screen
         self.score = 0
