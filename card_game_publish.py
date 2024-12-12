@@ -10,7 +10,7 @@ class CollectingAmmo:
         self.r = tk.Toplevel(parent)
         self.r.geometry("1500x700")  # Set the size of the window
         #self.r.attributes("-fullscreen", True)  # Make the window fullscreen
-        self.bg_image_path = "C:\\Users\\DELL\\project\\PG\\ocean1.png"  # Path to background image
+        self.bg_image_path = "C:\\insert\\background\\image\\path\\here.png"  # Path to background image
         self.original_bg = Image.open(self.bg_image_path)  # Open the background image
         # Resize the background image to fit the window size
         self.background_img = ImageTk.PhotoImage(self.original_bg.resize((1500, 700))) 
@@ -25,7 +25,7 @@ class CollectingAmmo:
         # Create card values (random integers between 1 and 10) for 3 cards
         self.card_values = {i: random.randint(1, 10) for i in range(1, 4)}
         # Load images for the cards (resized to 50x50 pixels)
-        self.card_images = {i: self.load_image(r"C:\\Users\\DELL\\project\\PG\\star.png") for i in range(1, 4)}
+        self.card_images = {i: self.load_image(r"C:\\insert\\cards\\image\\path\\here.png") for i in range(1, 4)}
 
         # Create labels and buttons for the game
         self.create_labels()
