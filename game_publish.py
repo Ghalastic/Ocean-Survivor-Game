@@ -20,7 +20,7 @@ class Game:
         self.canvas.pack(fill="both", expand=True)
 
         # Load and display the background image
-        self.background_image_path = "C:\\Users\\DELL\\project\\PG\\ocean1.png"
+        self.background_image_path = "C:\\insert\\background\\image\\path\\here.png"
         self.background_image = Image.open(self.background_image_path)
         self.background_photo = ImageTk.PhotoImage(self.background_image.resize((self.WIDTH, self.HEIGHT), Image.LANCZOS))
         self.canvas.create_image(0, 0, anchor=tk.NW, image=self.background_photo)
