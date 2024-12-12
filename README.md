@@ -30,8 +30,8 @@ Python
 2-3 Weeks
 ###
 ### Game Controls:- 
-Space bar: firing bulltes
-Up and down arrow keys: moving or avoiding obstacles
+Space bar: firing bullets  
+Up and down arrow keys: moving from or avoiding obstacles  
 ###
 ## How the Game Looks Like:-
 ![‏‏لقطة الشاشة (3107)](https://github.com/user-attachments/assets/04fb4cad-4601-474d-90e6-5eca302367e6)
