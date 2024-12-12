@@ -11,14 +11,14 @@ class Firstpage:
         self.a = Tk()  
         
         # Define the path for the background image and load it
-        image_path = "C:\\Users\\DELL\\OneDrive - King Abdullaziz University\\Documents\\newb.png"
+        image_path = "C:\\insert\\mainmenubackground\\image\\path\\here.png"
       
         original_img = Image.open(image_path)  # Open the image from the file
         resized_img = original_img.resize((1500, 800))  # Resize the image to fit the window size
         self.img = ImageTk.PhotoImage(resized_img)  # Convert to PhotoImage format for tkinter
 
         # Define the path for the logo image and load it
-        logo = "C:\\Users\\DELL\\project\\PG\\logo3.png"
+        logo = "C:\\insert\\gametitle\\image\\path\\here.png"
         logo_image = Image.open(logo)  # Open the logo image
         self.img2 = ImageTk.PhotoImage(logo_image)  # Convert logo to PhotoImage format
 
